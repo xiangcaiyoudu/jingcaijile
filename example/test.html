@@ -6,5 +6,11 @@
 </head>
 <body>
 	<script src="../release/bundle.js"></script>
+	<script>
+		var A = window.Animate
+		var cat = new A()
+		cat.set('name', '张三')
+		console.log(cat.get('name'))
+	</script>
 </body>
 </html>

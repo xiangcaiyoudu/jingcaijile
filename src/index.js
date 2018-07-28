@@ -1,11 +1,15 @@
 class Animate {
-	constructor() {
-		
-	}
+  constructor() {
+    this.list = {}
+  }
 
-	set() {
-		console.log('执行了set')
-	}
+  set(key, value) {
+    this.list[key] = value
+  }
+
+  get(key) {
+    return this.list[key]
+  }
 }
 
 window.Animate = Animate
