@@ -10,6 +10,10 @@ class Animate {
   get(key) {
     return this.list[key]
   }
+
+  clear() {
+  	this.list = {}
+  }
 }
 
 window.Animate = Animate
